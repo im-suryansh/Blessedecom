@@ -1,6 +1,10 @@
  @font-face {
   font-family: Ember;
-  src: url(../public/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+  src: url(../../../public/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+}
+@font-face {
+  font-family: vandal;
+  src: url(../../../public/yakin/Yakin.ttf);
 }
 /* .Home_image{
     width: 100%;
@@ -29,5 +33,6 @@
 .Home_container h1{
   text-align: center;
   margin-bottom: 20px ;
-  font-family: Ember;
+  font-family: vandal;
+  letter-spacing: 5px;
 }
