@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Checkout from "./components/Checkout";
-
+import LoginPage from "./components/LoginPage"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -29,6 +29,12 @@ function App() {
 							</>
 						}
 					/>
+					<Route
+					path="/login"
+					element={
+						<LoginPage/>}
+						/>
+					
 				</Routes>
 			</BrowserRouter>
 		</div>

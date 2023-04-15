@@ -1,72 +1,95 @@
 @font-face {
-    font-family: Ember;
-    src: url(../public/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+	font-family: Ember;
+	src: url(../public/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
 }
 
 .Header {
-  height: 80px;
-  display: flex;
-  align-items: center;
-  background-color: black;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	justify-content: space-around;
 }
 .Header_logo {
-  width: 100px;
-  object-fit: contain;
-  margin: 0 20px;
-  /* margin-top: 18px; */
+	width: 100px;
+	object-fit: contain;
+	margin: 0 20px;
+	/* margin-top: 18px; */
 }
 .Header_SearchIcon {
-  padding: 5px;
-  height: 22px;
-  background-color: #ededed;
+	padding: 5px;
+	height: 50px;
+	background-color: #ededed;
 }
 
 .Header_search {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  border-radius: 24px;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	border-radius: 24px;
 }
 
 .Header_search_input {
-  height: 12px;
-  padding: 10px;
-  border: none;
-  width: 100%;
-}
-.Header_options{
-    font-family: Ember;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
+	height: 12px;
+	padding: 10px;
+	border: none;
+	width: 100%;
 }
 
-.Header_nav{
-    display: flex;
-    justify-content: space-evenly;
+.input-wrapper input {
+	background-color: #eee;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+	width: 50rem;
+	border-radius: 1rem;
+	color: rgb(25, 25, 25);
+	font-family: Ember;
+	font-weight: 700;
+	letter-spacing: 2px;
+	/* box-shadow: 0 0.4rem #dfd9d9; */
+	cursor: pointer;
 }
-.option1{
-    font-size: 10px;
+
+.input-wrapper input:focus {
+	outline-color: lightcoral;
 }
-.option2{
-    font-size: 13px;
-    font-weight: 800;
+
+.Header_options {
+		font-family: Ember;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-.option1{
-    font-size: 10px;
-    
+
+.Header_nav {
+	display: flex;
+	justify-content: space-evenly;
 }
-.Header_cart{
-    color:white;
-    display: flex;
-    align-items: center;
+.option1 {
+	font-size: 10px;
 }
-.Header_basketcount{
-    margin-left: 10px;
-    margin-right: 10px;
+.option2 {
+	text-decoration: none;
+
+	font-size: 13px;
+	font-weight: 800;
 }
+.option1 {
+	font-size: 10px;
+}
+.Header_cart {
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.Header_basketcount {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
