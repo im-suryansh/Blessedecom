@@ -1,11 +1,25 @@
+@font-face {
+	font-family: Ember;
+	src: url(../../../public/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+}
+@font-face {
+	font-family: vandal;
+	src: url(../../../public/yakin/Yakin.ttf);
+}
+
 .Products {
 	display: flex;
 	align-items: center;
 	/* justify-content: flex-end; */
-
+	font-family: Ember;
+	padding-left: 10px;
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	min-width: 100px;
+
+	z-index: 1;
+	text-align: center;
+	flex-direction: column;
 
 	z-index: 1;
 	text-align: center;
