@@ -8,19 +8,18 @@
 }
 
 .Products {
-  display: flex;
-  align-items: center;
-  /* justify-content: flex-end; */
-  font-family: Ember;
+	display: flex;
+	align-items: center;
+	/* justify-content: flex-end; */
+	font-family: Ember;
+	padding-left: 10px;
+	width: 100%;
+	height: 500px;
+	min-width: 100px;
 
-  width: 100%;
-  height: 500px;
-  min-width: 100px;
-  
-  z-index: 1;
-  text-align: center;
-  flex-direction: column;
-
+	z-index: 1;
+	text-align: center;
+	flex-direction: column;
 }
 
 .Products img {
@@ -49,10 +48,9 @@
 }
 
 .product__info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
 }
