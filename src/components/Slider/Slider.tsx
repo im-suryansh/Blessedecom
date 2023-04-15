@@ -1,23 +1,24 @@
+import { ClassNames } from "@emotion/react";
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 function Slider() {
   const slides = [
     {
-      url: "https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/04/lady-gaga-x-crunchyroll-collab-3.jpg?resize=696%2C392&ssl=1",
+      url:("https://cdn.shopify.com/s/files/1/0070/1700/5113/files/Atsuko_DBS_HeroBanner_APR2023_2000x.gif?v=1681398888") ,
     },
     {
-      url: "https://cdn.shopify.com/s/files/1/0288/6926/3438/files/Geisha_embroidery_japanesestreetwear_2pair233_1400x.jpg?v=1660274306",
+      url: "https://cdn.shopify.com/s/files/1/0070/1700/5113/files/Atsuko_JoJo_HeroBanner_APR2023_2000x.jpg?v=1680621495",
     },
     {
-      url: "https://cdn.shopify.com/s/files/1/0280/8100/files/anime-apparel-web-banner-1440px_7200c185-461b-44cd-8a80-0c8bcead4e1a_1400x.jpg?v=1646345865",
+      url: "https://cdn.shopify.com/s/files/1/0070/1700/5113/files/Atusuko_Toonami_HeroBanner_MAR2023_2000x.gif?v=1680277935",
     },
 
     {
-      url: "https://cdn.trendhunterstatic.com/thumbs/anime-apparel-collaboration.jpeg?auto=webp",
+      url: "https://cdn.shopify.com/s/files/1/0070/1700/5113/files/Atusko_SamuraiChamploo_HeroBanner_MAR2023_2000x.gif?v=1680017274",
     },
     {
-      url: "https://img.mipon.org/wp-content/uploads/2019/05/17122648/haikui_tees.jpg",
+      url: "https://cdn.shopify.com/s/files/1/0070/1700/5113/files/Atusko_FLCL_HeroBanner_MAR2023_2000x.jpg?v=1679584537",
     },
   ];
 
@@ -52,6 +53,7 @@ function Slider() {
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
     </div>
+    
   );
 }
 
