@@ -3,7 +3,7 @@
 	src: url(../../../amazon-ember-cufonfonts/Amazon\ Ember.ttf);
 }
 @font-face {
-	font-family: vandal;
+	font-family: yakin;
 	src: url(../../../yakin/Yakin.ttf);
 }
 
@@ -24,6 +24,6 @@
 .Home_container h1 {
 	text-align: center;
 	margin-bottom: 20px;
-	font-family: vandal;
+	font-family: yakin;
 	letter-spacing: 5px;
 }
