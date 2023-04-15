@@ -21,18 +21,9 @@
 	z-index: 1;
 }
 
-<<<<<<< HEAD
 .Home_container h1 {
 	text-align: center;
 	margin-bottom: 20px;
 	font-family: yakin;
 	letter-spacing: 5px;
-=======
-.Home_container h1{
-  margin-top: 50px;
-  text-align: center;
-  margin-bottom: 50px ;
-  font-family: vandal;
-  letter-spacing: 5px;
->>>>>>> 343c5d1298303c3f67da8b4204302d362b805221
 }
