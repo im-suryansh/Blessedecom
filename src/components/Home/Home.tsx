@@ -32,7 +32,7 @@ function Home() {
             image="https://comicsense.b-cdn.net/wp-content/uploads/2022/03/thunderbreathing_oversize4_comicsense.jpg"
           />
           <Products
-            title="Curse (Oversize Drop-Shoulder)"
+            title="Curse (Drop-Shoulder)"
             price="1099.00"
             image="https://comicsense.b-cdn.net/wp-content/uploads/2023/03/berserk_teefront_comicsense-1.jpg"
           />
@@ -43,7 +43,7 @@ function Home() {
             image="https://comicsense.b-cdn.net/wp-content/uploads/2023/03/naruto_hokage_hawaiianshirt_back_comicsense.jpg"
           />
         </div>
-        <h1>New Arrivals</h1>
+        <h1>Trending</h1>
         <div className="Home_row">
           <Products
             title="Majin Bucket Hat"
@@ -66,12 +66,12 @@ function Home() {
             image="https://comicsense.b-cdn.net/wp-content/uploads/2023/04/naruto3_comicsense.jpg"
           />
           <Products
-            title="Thunder Slayer Woven Lanyard"
+            title="Thunder Woven Lanyard"
             price="599.00"
             image="https://comicsense.b-cdn.net/wp-content/uploads/2023/04/zenitsu3_comicsense.jpg"
           />
           <Products
-            title="Six Eye Sorcerer Woven Lanyard"
+            title="Sorcerer Woven Lanyard"
             price="599.00"
             image="https://comicsense.b-cdn.net/wp-content/uploads/2023/04/gojo3_comicsense.jpg"
           />
